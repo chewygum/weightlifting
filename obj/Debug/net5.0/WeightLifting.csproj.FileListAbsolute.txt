@@ -14,3 +14,19 @@
 /Users/TracyLiu/Code/WeightLifting/obj/Debug/net5.0/ref/WeightLifting.dll
 /Users/TracyLiu/Code/WeightLifting/obj/Debug/net5.0/WeightLifting.pdb
 /Users/TracyLiu/Code/WeightLifting/obj/Debug/net5.0/WeightLifting.genruntimeconfig.cache
+/Users/TracyLiu/Code/WeightLifting copy/obj/Debug/net5.0/WeightLifting.csproj.AssemblyReference.cache
+/Users/TracyLiu/Code/WeightLifting copy/obj/Debug/net5.0/WeightLifting.GeneratedMSBuildEditorConfig.editorconfig
+/Users/TracyLiu/Code/WeightLifting copy/obj/Debug/net5.0/WeightLifting.AssemblyInfoInputs.cache
+/Users/TracyLiu/Code/WeightLifting copy/obj/Debug/net5.0/WeightLifting.AssemblyInfo.cs
+/Users/TracyLiu/Code/WeightLifting copy/obj/Debug/net5.0/WeightLifting.csproj.CoreCompileInputs.cache
+/Users/TracyLiu/Code/WeightLifting copy/obj/Debug/net5.0/WeightLifting.dll
+/Users/TracyLiu/Code/WeightLifting copy/obj/Debug/net5.0/ref/WeightLifting.dll
+/Users/TracyLiu/Code/WeightLifting copy/obj/Debug/net5.0/WeightLifting.pdb
+/Users/TracyLiu/Code/WeightLifting copy/bin/Debug/net5.0/WeightLifting
+/Users/TracyLiu/Code/WeightLifting copy/bin/Debug/net5.0/WeightLifting.deps.json
+/Users/TracyLiu/Code/WeightLifting copy/bin/Debug/net5.0/WeightLifting.runtimeconfig.json
+/Users/TracyLiu/Code/WeightLifting copy/bin/Debug/net5.0/WeightLifting.runtimeconfig.dev.json
+/Users/TracyLiu/Code/WeightLifting copy/bin/Debug/net5.0/WeightLifting.dll
+/Users/TracyLiu/Code/WeightLifting copy/bin/Debug/net5.0/ref/WeightLifting.dll
+/Users/TracyLiu/Code/WeightLifting copy/bin/Debug/net5.0/WeightLifting.pdb
+/Users/TracyLiu/Code/WeightLifting copy/obj/Debug/net5.0/WeightLifting.genruntimeconfig.cache

@@ -45,41 +45,31 @@ namespace WeightLifting
 
             } while (!isInputCorrect);
 
-            double halfRemainWeight = (inputWeight - BAR_WEIGHT)/2; 
-            
-            CalculatePlateWeightsOnEachSide(ref halfRemainWeight);
+            double halfRemainWeight = (inputWeight - BAR_WEIGHT)/2;
+
+            CalculatePlateWeightsOnEachSide(halfRemainWeight);
 
             displayTotalWeightSelected();
 
             displayPlateWeightsSelected();          
         }
 
-    
         /// <summary>
-        /// Resursive function that calculates the plate weights to be put on EACH side of the weight bar
+        /// function that calculates the plate weights to be put on EACH side of the weight bar
         /// </summary>
         /// <param name="remainWeight"></param>
-        private static void CalculatePlateWeightsOnEachSide(ref double remainWeight)
+        private static void CalculatePlateWeightsOnEachSide(double remainWeight)
         {
-            foreach(var plateWeight in PLATE_WEIGHTS)
+            foreach (double plateWeight in PLATE_WEIGHTS)
             {
-                if (remainWeight >= plateWeight)
+                int numberOfWeights = Convert.ToInt32(Math.Floor(remainWeight / plateWeight));
+                if (numberOfWeights > 0)
                 {
-                    if (chosenPlatesOnEachSide.ContainsKey(plateWeight))
-                        chosenPlatesOnEachSide[plateWeight]++;
-                    else
-                        chosenPlatesOnEachSide.Add(plateWeight, 1);
-
-                    remainWeight -= plateWeight;
-
-                    if (remainWeight <= 0)
-                        break;
-                    
-                    CalculatePlateWeightsOnEachSide(ref remainWeight);
+                    chosenPlatesOnEachSide.Add(plateWeight, numberOfWeights);
+                    remainWeight %= plateWeight;
                 }
             }
         }
-
 
         private static void displayPlateWeightsSelected()
         {
